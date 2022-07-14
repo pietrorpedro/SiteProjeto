@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/*INDEX*/
+
+.header-baixo #banner-header{
+    width:100%;
+}
+
+/*INDEX CARDS*/
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    justify-content: center;
+}
+.cards .card{
+    
+    border-radius: 0;
+    border:none;
+    margin:10px;
+}
+.cards .card .card-img-top{
+    width:100%;
+    height:auto;
+    border-radius: 0;
+}
+.cards .card .card-title{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*MEDIA QUERIES*/
+
+/*INDEX CARDS*/
+@media screen and (max-width:768px){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+    }
+}
+@media screen and (max-width:425px){
+    .cards{
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+    .header-baixo img{
+        border:1px solid red;
+    }
+}
