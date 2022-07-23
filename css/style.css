@@ -20,9 +20,9 @@ a{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 50px;
     justify-content: center;
+    align-items:baseline;
 }
 .cards .card{
-    
     border-radius: 0;
     border:none;
     margin:10px;
@@ -35,10 +35,47 @@ a{
 .cards .card .card-title{
     font-family: 'Roboto', sans-serif;
 }
+.cards .card img{
+    max-height: 500px;
+}
+/*ETC*/
+#hr{
+    max-width: 800px;
+    display: block;
+    margin:10px auto;
+}
+
+/*CONTATO*/
+.conteudo{
+    max-width: 800px;
+}
+/*PRODUTO DETALHE*/
+.produto-detalhe{
+    max-width: 1200px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.produto-detalhe img{
+    max-width: 500px;
+    height:auto;
+}
+.detalhe{
+    margin: 0 0 0 50px;
+}
+.detalhe p{
+    max-width: 400px;
+    text-align: justify;
+}
+/*LOGIN PAGE*/
+.login-page{
+    max-width: 500px;
+}
 
 /*MEDIA QUERIES*/
 
 /*INDEX CARDS*/
+
 @media screen and (max-width:768px){
     .cards{
         grid-template-columns: 1fr 1fr;
@@ -50,7 +87,35 @@ a{
         grid-template-columns: 1fr;
         row-gap: 0;
     }
-    .header-baixo img{
-        border:1px solid red;
+}
+/*PRODUTO DETALHE*/
+@media screen and (max-width:768px){
+    .produto-detalhe{
+        display: block;
+    }
+    .produto-detalhe img{
+        display: block;
+        margin:0 auto;
+    }
+    .detalhe{
+        max-width: 500px;
+        display: block;
+        margin:0 auto;
+        text-align: center;
+    }
+    .detalhe p{
+        display: block;
+        margin:10px auto;
+    }
+    #preco{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:425px){
+    .produto-detalhe img{
+        display: block;
+        margin:0 auto;
+        max-width: 300px;
     }
 }

@@ -8,7 +8,7 @@ include_once 'includes/header.php';
 <h1 class="text-center mt-5">Promoção</h1>
 <div class="cards container mt-5">
     <div class="card">
-        <a href="#">
+        <a href="produto-detalhe.php">
             <img src="content/camiseta-preta.jpg" class="card-img-top">
             <div class="card-body">
                 <p class="card-title text-center text-dark">Camiseta Legal</p>
@@ -18,7 +18,7 @@ include_once 'includes/header.php';
     </div>
 
     <div class="card">
-        <a href="#">
+        <a href="produto-detalhe.php">
             <img src="content/camiseta-preta.jpg" class="card-img-top">
             <div class="card-body">
                 <p class="card-title text-center text-dark">Camiseta Legal</p>
@@ -28,7 +28,7 @@ include_once 'includes/header.php';
     </div>
 
     <div class="card">
-        <a href="#">
+        <a href="produto-detalhe.php">
             <img src="content/camiseta-preta.jpg" class="card-img-top">
             <div class="card-body">
                 <p class="card-title text-center text-dark">Camiseta Legal</p>
@@ -38,7 +38,7 @@ include_once 'includes/header.php';
     </div>
 
     <div class="card">
-        <a href="#">
+        <a href="produto-detalhe.php">
             <img src="content/camiseta-preta.jpg" class="card-img-top">
             <div class="card-body">
                 <p class="card-title text-center text-dark">Camiseta Legal</p>
